@@ -53,7 +53,7 @@ void loop(void) {
   u8g2.setCursor(55, 45);
   u8g2.print(percent);
   u8g2.print("%");
-  //u8g2.setCursor(0, 61);
-  //u8g2.print("0%                 100%");
+  u8g2.setCursor(0, 61);
+  u8g2.print("0%                 100%");
   u8g2.sendBuffer();
 }
