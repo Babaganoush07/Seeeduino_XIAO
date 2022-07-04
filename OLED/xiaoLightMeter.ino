@@ -17,7 +17,7 @@ int percent = 0;
 void setup(void) {
   u8g2.begin();
   u8g2.enableUTF8Print();  // enable UTF8 support for the Arduino print() function
-  analogReadResolution(12); // Set to 12, xaio defaults to 
+  analogReadResolution(12); // Set to 12, xaio defaults to 10
   pinMode(LED_PIN, OUTPUT);
 }
 
